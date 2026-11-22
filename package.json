@@ -1,5 +1,5 @@
 {
-  "name": "publish-checker",
+  "name": "@shambhavi_14/publish-checker",
   "version": "1.0.0",
   "description": "Preflight validator for NPM packages: verifies entry points, metadata, files whitelist, documentation, and prevents secret leaks before publishing.",
   "main": "./src/index.js",

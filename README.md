@@ -1,4 +1,4 @@
-# publish-checker
+# @shambhavi_14/publish-checker
 
 A CLI preflight verification tool that audits npm packages before publishing to prevent broken releases, missing entry points, and accidental file leaks.
 
@@ -20,13 +20,13 @@ Publishing an npm package with invalid configuration or missing files causes bro
 Run directly with npx:
 
 ```bash
-npx publish-checker
+npx @shambhavi_14/publish-checker
 ```
 
 Or install globally:
 
 ```bash
-npm install -g publish-checker
+npm install -g @shambhavi_14/publish-checker
 ```
 
 ## Usage
@@ -53,13 +53,13 @@ publish-checker
 To run checks automatically before every `npm publish`:
 
 ```bash
-npx publish-checker --init-hook
+npx @shambhavi_14/publish-checker --init-hook
 ```
 
 ## Programmatic API
 
 ```javascript
-const { runChecks } = require('publish-checker');
+const { runChecks } = require('@shambhavi_14/publish-checker');
 
 const report = runChecks({ dir: './my-package', strict: true });
 console.log(`Passed: ${report.stats.passed}, Errors: ${report.stats.errors}`);
