@@ -1,10 +1,10 @@
 {
   "name": "@shambhavi_14/publish-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Preflight validator for NPM packages: verifies entry points, metadata, files whitelist, documentation, and prevents secret leaks before publishing.",
   "main": "./src/index.js",
   "bin": {
-    "publish-checker": "./bin/cli.js"
+    "publish-checker": "bin/cli.js"
   },
   "files": [
     "bin",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shambhavis25585-afk/publish-checker"
+    "url": "git+https://github.com/shambhavis25585-afk/publish-checker.git"
   },
   "bugs": {
     "url": "https://github.com/shambhavis25585-afk/publish-checker/issues"
